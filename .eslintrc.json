@@ -1,12 +1,14 @@
 {
   "extends": [
     "eslint:recommended",
+    "plugin:react/recommended",
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:prettier/recommended",
     "prettier/@typescript-eslint"
   ],
   "plugins": [
+    "react",
     "@typescript-eslint"
   ],
   "env": { "node": true, "es6": true },
@@ -16,5 +18,11 @@
     "project": "./tsconfig.json"
   },
   "rules": {
+    "@typescript-eslint/explicit-function-return-type": "off"
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
   }
 }
