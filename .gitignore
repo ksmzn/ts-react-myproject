@@ -142,6 +142,7 @@ tags
 # End of https://www.gitignore.io/api/vim,node,macos,sublimetext,visualstudiocode
 
 # MyCustom
+.idea
 
 ## App Name
 dist
