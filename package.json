@@ -7,8 +7,9 @@
   "license": "MIT",
   "scripts": {
     "start": "webpack-dev-server --config ./webpack.config.dev.js",
+    "typeCheck": "tsc --noEmit",
     "lint": "eslint src/**/*.tsx",
-    "lint:fix": "eslint --fix src/**/*.tsx"
+    "format": "eslint --fix src/**/*.tsx"
   },
   "dependencies": {
     "react": "^16.11.0",
