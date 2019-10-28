@@ -1,4 +1,4 @@
-# TypeScript & React & Redux
+# TypeScript & React
 
 ## 開発環境
 
@@ -18,24 +18,4 @@ $ yarn start
 
 ```
 $ yarn build
-```
-
-## Stylelint
-
-```
-$ yarn stylelint
-```
-
-## Test
-
-テスト実行
-
-```
-$ yarn test
-```
-
-スナップショットをアップデートする
-
-```
-$ yarn test:update
 ```

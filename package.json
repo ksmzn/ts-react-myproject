@@ -1,0 +1,45 @@
+{
+  "name": "ts-react-myproject",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "repository": "https://github.com/ksmzn/ts-react-myproject.git",
+  "author": "Naoto Koshimizu <kossyfm@outlook.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server --config ./webpack.config.dev.js",
+    "lint": "eslint src/**/*.tsx",
+    "lint:fix": "eslint --fix src/**/*.tsx"
+  },
+  "dependencies": {
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-react": "^7.6.3",
+    "@babel/preset-typescript": "^7.6.0",
+    "@hot-loader/react-dom": "^16.10.2",
+    "@types/react": "^16.9.11",
+    "@types/react-dom": "^16.9.3",
+    "@typescript-eslint/eslint-plugin": "^2.5.0",
+    "@typescript-eslint/parser": "^2.5.0",
+    "babel-loader": "^8.0.6",
+    "case-sensitive-paths-webpack-plugin": "^2.2.0",
+    "css-loader": "^3.2.0",
+    "eslint": "^6.6.0",
+    "eslint-config-prettier": "^6.5.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "file-loader": "^4.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "prettier": "^1.18.2",
+    "react-hot-loader": "^4.12.15",
+    "redbox-react": "^1.6.0",
+    "style-loader": "^1.0.0",
+    "typescript": "^3.6.4",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.9.0",
+    "webpack-merge": "^4.2.2"
+  }
+}
